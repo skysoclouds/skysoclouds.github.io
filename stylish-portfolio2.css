@@ -259,12 +259,12 @@ footer {
 
 .pos_left {
     position: relative;
-    left: 16px;
+    padding-right:  250px
 
 }
 
 .pos_right {
     position: relative;
-    right: 16px;
+    padding-left:  250px
 
 }
