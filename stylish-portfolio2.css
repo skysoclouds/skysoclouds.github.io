@@ -257,8 +257,14 @@ footer {
     font-family: 'Pacifico', cursive;
 }
 
-.topleft {
-    position: absolute;
-    left: 16px;
+.pos_left {
+    position: relative;
+    left: 35px;
+
+}
+
+.pos_right {
+    position: relative;
+    right: 35px;
 
 }
