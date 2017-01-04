@@ -251,5 +251,14 @@ footer {
 
 .head_font{
     font-family: 'PT Sans', sans-serif;
-    
+}
+
+.font_cursive{
+    font-family: 'Pacifico', cursive;
+}
+
+.topleft {
+    position: absolute;
+    left: 16px;
+
 }
