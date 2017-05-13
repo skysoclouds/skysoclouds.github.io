@@ -1,0 +1,70 @@
+
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <link rel="stylesheet" type="text/css" href="../CssHold/CSS_Bar.css"></links>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></links>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!--fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"></links>
+        <link href="https://fonts.googleapis.com/css?family=Rasa" rel="stylesheet"></links>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></links>
+    </head>
+
+
+    <body class="col-sm-12 col-md-12 col-lg-12" style="padding-left: 0px; padding-right: 0px"  data-spy="scroll" data-target=".navbar" data-offset="200">
+        <!--top Carousel-->
+
+
+
+
+        <!--First Container-->
+        <div id="fdiv" class="Set_d_Home_hello active item" style="height: 100%">
+            <div class="DivQuat" style="">
+                <h1 id="headerbar_one" style="font-family: 'Lobster', cursive; text-align: center; color: darkslategray;opacity: 0.7;background-color: seashell ; font-size: 360%; margin-bottom: 0px;margin-top: 0px;">Helvetica Co.</h1>
+                <i class="material-icons vibin_xtag_call" style="top: 110%; left: 50%; position: absolute; font-size: 50px; color: cadetblue;">&#xE313;</i>
+            </div>
+
+
+
+
+        </div>
+
+
+
+        <!--Second Container-->
+        <div id="slidetodiv" class="Set_d_Home_hello2 " style="height: 100%;">
+            <div class="" style="opacity: 0.5; background: beige; height: 600px; width: 400px; margin-left: -200px; left: 50%; position: absolute;">
+
+            </div>
+
+
+        </div>
+
+
+        <!--Jquery Start-->
+        <script type="text/javascript" >
+            $(function () {
+                init();
+            });
+
+            function init() {
+                jumpdivc();
+            }
+
+            function jumpdivc() {
+<!--click on h1 #headerbar_one to jump to second div-->
+                $("#headerbar_one").click(function () {
+                    $('html, body').animate({scrollTop: $('#slidetodiv').offset().top}, 'fast');
+});
+            }
+
+        </script>
+
+
+    </body>
+</html>
