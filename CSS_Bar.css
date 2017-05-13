@@ -1,0 +1,118 @@
+
+/* 
+    Author     : ICE
+*/
+
+.DivCenter{
+    position: absolute;
+    top: 50%;
+    margin-top: 0px;/* half of #content height*/
+    left: 0;
+    width: 100%;
+}/*centers DIV*/
+.DivQuat{
+    position: absolute;
+    top: 25%;
+    margin-top: 0px;/* half of #content height*/
+    left: 0;
+    width: 100%;
+}/*centers DIV*/
+
+.TextCenter{
+    text-align: center
+}/*Center Text*/
+.Set_d_Home_hello{
+
+
+    background: url("../ImgHold/HEAD_01-15.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: auto;
+    height: 100%;
+    background-attachment: fixed;
+}/*Homepage first div: Hello*/
+.Set_d_Home_hello2{
+    background: url("../ImgHold/HEAD_01-17.jpg")no-repeat center center;
+    background-attachment: fixed;
+    background-position: top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    width: auto;
+    height: 100%;
+}/*Homepage first div: Hello*/
+.set_d_Footer{
+    width: 130px;
+    height: 45px; 
+    border-color: cadetblue;
+    border-style: solid;
+    border-width: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+
+.fadein_xtag_call{
+
+    animation-name: xtag;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.vibin_xtag_call{
+
+    animation-name: xvib;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+.affix {
+    top:0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.affix ~ .container-fluid {
+    position: relative;
+    top: 50px;
+}
+
+/*Annimation*/
+@keyframes xtag {
+    0%   {opacity: 0.0;}
+    25%  {opacity: 0.25;}
+    50%  {opacity: 0.5;}
+    75%  {opacity: 0.75;}
+    100% {opacity: 1.0;}
+
+}
+
+@keyframes xvib {
+    0%   {transform: translate3d(0px, 0px, 0px);
+          color: white;
+          animation-timing-function: ease-in;
+    }
+    20%  {transform: translate3d(0px, 25px, 0px);
+          color: cadetblue;
+          animation-timing-function: ease-out;}
+    80%  {transform: translate3d(0px, 25px, 0px);
+          color: cadetblue;
+          animation-timing-function: ease-out;}
+    100% {transform: translate3d(0px, 0px, 0px);
+          color: white;
+          animation-timing-function: ease-in;}
+
+}
+/*Icons*/
+
+/*Nav*/
+
